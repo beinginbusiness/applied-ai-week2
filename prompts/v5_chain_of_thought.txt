@@ -1,0 +1,17 @@
+Classify the sentiment, intent, and urgency of the following call transcript.
+
+Sentiment options: positive, neutral, negative
+Intent options: complaint, question, compliment, refund_request
+Urgency options: low, medium, high
+
+Transcript: {transcript}
+
+First, think step by step:
+1. What is the customer's emotional tone?
+2. What are they actually asking for?
+3. How time-sensitive or severe is their situation?
+
+Then give your final answer in this exact format (after your reasoning):
+Sentiment: <value>
+Intent: <value>
+Urgency: <value>

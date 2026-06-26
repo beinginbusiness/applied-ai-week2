@@ -1,0 +1,33 @@
+Classify the sentiment, intent, and urgency of call transcripts.
+
+Sentiment options: positive, neutral, negative
+Intent options: complaint, question, compliment, refund_request
+Urgency options: low, medium, high
+
+Here are some examples of how to classify:
+
+Example 1:
+Transcript: "Thanks so much, that fixed it!"
+Sentiment: positive
+Intent: compliment
+Urgency: low
+
+Example 2:
+Transcript: "Does my plan include international roaming?"
+Sentiment: neutral
+Intent: question
+Urgency: low
+
+Example 3:
+Transcript: "I've called three times about this and nobody has fixed it. This is unacceptable, I want answers now."
+Sentiment: negative
+Intent: complaint
+Urgency: high
+
+Now classify this transcript:
+Transcript: {transcript}
+
+Respond in this exact format:
+Sentiment: <value>
+Intent: <value>
+Urgency: <value>

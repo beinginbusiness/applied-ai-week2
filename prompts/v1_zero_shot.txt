@@ -1,0 +1,12 @@
+Classify the sentiment, intent, and urgency of the following call transcript.
+
+Sentiment options: positive, neutral, negative
+Intent options: complaint, question, compliment, refund_request
+Urgency options: low, medium, high
+
+Transcript: {transcript}
+
+Respond in this exact format:
+Sentiment: <value>
+Intent: <value>
+Urgency: <value>
