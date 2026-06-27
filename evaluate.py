@@ -100,11 +100,5 @@ def run_evaluation(prompt_file, provider="gemini", transcripts_file="data/transc
 
 
 if __name__ == "__main__":
-    print("\n\n### TESTING v1 (zero-shot) ###")
-    run_evaluation("prompts/v1_zero_shot.txt", provider="groq")
-
-    print("\n\n### TESTING v4 (few-shot) ###")
-    run_evaluation("prompts/v4_few_shot.txt", provider="groq")
-
-    print("\n\n### TESTING v5 (chain-of-thought) ###")
-    run_evaluation("prompts/v5_chain_of_thought.txt", provider="groq")
+    print("\n\n### TESTING v7 (tree-of-thought, fixed) ###")
+    run_evaluation("prompts/v7_tree_of_thought.txt", provider="groq")

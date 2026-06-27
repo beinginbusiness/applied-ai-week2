@@ -1,0 +1,21 @@
+Classify the sentiment, intent, and urgency of the following call transcript.
+
+Sentiment options: positive, neutral, negative
+Intent options: complaint, question, compliment, refund_request
+Urgency options: low, medium, high
+
+Analyze it from three different angles before deciding:
+Angle 1 - Literal words: What do the actual words say, taken at face value?
+Angle 2 - Emotional tone: What is the underlying emotional tone, including any 
+sarcasm or implied frustration?
+Angle 3 - Real-world stakes: What are the practical consequences or urgency 
+implied by the situation, even if not stated directly?
+
+Transcript: {transcript}
+
+Now combine all three angles into one final classification, choosing only 
+from the options listed above.
+Respond in this exact format (after your analysis):
+Sentiment: <value>
+Intent: <value>
+Urgency: <value>
